@@ -1,6 +1,6 @@
 <?php
 
-    require_once("./lib/connect.php");
+    require_once("connect.php");
 
     $sql = "SELECT * FROM pracownicy";
     $result = $conn->query($sql);
