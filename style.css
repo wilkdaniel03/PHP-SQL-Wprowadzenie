@@ -38,21 +38,21 @@ td {
   padding-left: 25px;
 }
 tr {
-  background-color: #ffff80;
+  background-color: #09db41;
   text-align:left;
 }
 tr:nth-child(even) {
-  background-color: #ffffb3;
+  background-color: #1aba45;
 }
 
 tr:hover {
-  background-color: #ffffcc;
+  background-color: #33de61;
 }
 th {
   padding-top: 12px;
   padding-bottom: 8px;
   padding-right: 12px;
   padding-left:20px;
-  background-color: #ffff1a;
+  background-color: #32a852;
   color: black;
 }
