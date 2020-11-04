@@ -3,6 +3,9 @@
     <title>Daniel Wilk 2Ti</title>
     <link rel=stylesheet href="style.css">
 </head>
+<body>
+    <a href="https://github.com/wilkdaniel03/PHP-SQL-Wprowadzenie">Link do mojego githuba</a>
+</body>
 </html>
 <?php
 
