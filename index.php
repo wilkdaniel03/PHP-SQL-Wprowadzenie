@@ -7,8 +7,8 @@
 <body>
     <strong><a href="https://github.com/wilkdaniel03/PHP-SQL-Wprowadzenie">Link do mojego githuba</a></strong>
     <div class="nav">
-        <a href="pracownicy.php">Pracownicy - wstęp</a>
-        <a href="funkcjeagregujace.php">Funkcje Agregujące</a>
+        <a class="nav-link" href="pracownicy.php">Pracownicy - wstęp</a>
+        <a class="nav-link" href="funkcjeagregujace.php">Funkcje Agregujące</a>
     </div<
 </body>
 </html>
