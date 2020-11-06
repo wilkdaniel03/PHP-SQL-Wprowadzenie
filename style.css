@@ -57,6 +57,10 @@ th {
   color: black;
 }
 
+.nav{
+  background-color: light;
+}
+
 .nav-link{
   color: red;
 }
