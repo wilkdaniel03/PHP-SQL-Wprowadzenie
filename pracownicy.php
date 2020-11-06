@@ -6,8 +6,9 @@
 </head>
 <body>
   <div class="nav">
-    <
+     <strong><a href="https://github.com/wilkdaniel03/PHP-SQL-Wprowadzenie">Link do mojego githuba</a></strong>
   </div>
+</body>
 <?php
 
   echo("Tu są pracownicy");
