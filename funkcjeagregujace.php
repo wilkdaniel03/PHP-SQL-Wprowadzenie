@@ -25,9 +25,28 @@
       echo("</table>");
    }
 
+   function dzialy($nr,$sql){
+      require("connect.php");
+
+      echo("<b><br/><br/>".$nr."</b>");
+      echo("<b><br/><br/>".$sql."</b>");
+      $result = $conn->query($sql);
+
+      echo("<br/><br/><table border=1>");
+      echo("<th>ID</th>");
+      echo("<th>Imie</th>");
+      echo("<th>Nazwa dzialu</th>");
+      echo("<th>Zarobki</th>");
+      while($row = $result->fetch_assoc()){
+          echo("<tr>");
+              echo("<td>".$row['id_pracownicy']."</td><td>".$row['imie']."</td><td>".$row['nazwa_dzial']."</td><td>".$row['zarobki']."</td");
+          echo("</tr>");
+      }
+      echo("</table>");
+   }
+   
    wszystko("Pracownicy tylko z dzialu 2","SELECT  * FROM pracownicy WHERE dzial=2");
    wszystko("Pracownicy tylko z działu 2 i z działu 3","SELECT  * FROM pracownicy WHERE (dzial=2 OR dzial=3)");
    wszystko("Pracownicy tylko z zarobkami mniejszymi niż 30","SELECT  * FROM pracownicy WHERE zarobki<30");
-   wszystko("Pracownicy z nazwą działów","SELECT  * FROM pracownicy,organizacja WHERE dzial = nazwa_dzial");
 
 ?>
