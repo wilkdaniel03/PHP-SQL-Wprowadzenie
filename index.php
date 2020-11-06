@@ -17,7 +17,7 @@
     function wszystko($nr,$sql){
         require("connect.php");
 
-        echo("<b><br/>Tabelka nr ".$nr."</b>");
+        echo("<b><br/><br/>Tabelka nr ".$nr."</b>");
         echo("<b><br/><br/>".$sql."</b>");
         $result = $conn->query($sql);
 
