@@ -1,9 +1,14 @@
+<html>
+<head>
+   <title>Daniel Wilk 2Ti</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
 <?php
 
    function wszystko($nr,$sql){
       require("connect.php");
 
-      echo("<b><br/><br/>Tabelka nr ".$nr."</b>");
+      echo("<b><br/><br/>".$nr."</b>");
       echo("<b><br/><br/>".$sql."</b>");
       $result = $conn->query($sql);
 
@@ -20,6 +25,6 @@
       echo("</table>");
    }
 
-   wszystko(1,"SELECT  * FROM pracownicy WHERE dzial=2");
+   wszystko("Pracownicy tylko z dzialu 2","SELECT  * FROM pracownicy WHERE dzial=2");
 
 ?>
