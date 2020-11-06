@@ -27,6 +27,6 @@
 
    wszystko("Pracownicy tylko z dzialu 2","SELECT  * FROM pracownicy WHERE dzial=2");
    wszystko("Pracownicy tylko z działu 2 i z działu 3","SELECT  * FROM pracownicy WHERE (dzial=2 OR dzial=3)");
-   wszystko("Pracownicy tylko z zarobkami mniejszymi niż 30","Pracownicy tylko z zarobkami mniejszymi niż 30");
+   wszystko("Pracownicy tylko z zarobkami mniejszymi niż 30","SELECT  * FROM pracownicy WHERE zarobki<30");
 
 ?>
