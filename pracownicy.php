@@ -23,4 +23,6 @@
       echo("</table>");
   }
 
+  wszystko(1,"SELECT * FROM pracownicy");
+
 ?>
