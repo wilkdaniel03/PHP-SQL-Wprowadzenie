@@ -1,9 +1,9 @@
 <?php
 
-    $server = "sql2.freemysqlhosting.net";
-    $user = "sql2374443";
-    $password = "aK4!cF6%";
-    $dbname = "sql2374443";
+    $server = "mysql-wilkdaniel03.alwaysdata.net";
+    $user = "218403";
+    $password = "fajnabaza123";
+    $dbname = "wilkdaniel03_www";
 
     $conn = @new mysqli($server, $user,$password,$dbname);
 
