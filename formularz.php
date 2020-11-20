@@ -1,6 +1,6 @@
 <?php
 
-echo("jestes na strona.php");
+echo("jestes na formularz.php");
 echo("</br>");
 echo("<h3>Imie</h3>");
 echo($_POST["imie"]);
