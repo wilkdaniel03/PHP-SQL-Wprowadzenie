@@ -20,19 +20,23 @@ $user = "218403";
 $password = "fajnabaza123";
 $dbname = "wilkdaniel03_www";
 
-
-$imie = $_POST['imie'];
-$dzial = $_POST['dzial'];
-$zarobki = $_POST['zarobki'];
-$data_urodzenia = $_POST['urodziny'];
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($server, $user, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO Pracownik (null, $_POST['name'], dzial, zarobki) 
-       VALUES (null, 1, 2, 3, 4);
+//definiujemy zapytanie $sql
+$sql = "INSERT INTO Pracownik (null, name, dzial,zarobki,data_urodzenia)
+	      VALUES (
+					null, 
+					$_POST['name'], 
+					$_POST['dzial'], 
+					$_POST['zarobki'],
+					$_POST['data_urodzenia']
+				";
+
+//wyświetlamy zapytanie $sql
+echo $sql;
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
@@ -41,4 +45,5 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+?>
 ?>
