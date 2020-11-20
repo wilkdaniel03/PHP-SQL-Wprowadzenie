@@ -5,16 +5,14 @@ echo("</br>");
 echo("<h3>Imie</h3>");
 echo($_POST["imie"]);
 echo("</br>");
-echo("<h3>Nazwisko</h3>");
-echo($_POST["nazwisko"]);
+echo("<h3>Dzial</h3>");
+echo($_POST["dzial"]);
 echo("</br>");
-echo("<h3>Pesel</h3>");
-echo($_POST["pesel"]);
+echo("<h3>Zarobki</h3>");
+echo($_POST["zarobki"]);
 echo("</br>");
-echo("<h3>Urodziny</h3>");
+echo("<h3>Data urodzenia</h3>");
 echo($_POST["urodziny"]);
 echo("</br>");
-echo("<h3>Adres</h3>");
-echo($_POST["adres"]);
 
 ?>
