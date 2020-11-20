@@ -15,10 +15,11 @@ echo("<h3>Data urodzenia</h3>");
 echo($_POST["urodziny"]);
 echo("</br>");
 
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
+$server = "mysql-wilkdaniel03.alwaysdata.net";
+$user = "218403";
+$password = "fajnabaza123";
+$dbname = "wilkdaniel03_www";
+
 
 $imie = $_POST['imie'];
 $dzial = $_POST['dzial'];
