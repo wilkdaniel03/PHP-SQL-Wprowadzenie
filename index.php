@@ -20,7 +20,7 @@
                     <li><a class="link" href="funkcjeagregujace.php">Funkcje Agregujące</a></li>
                     <li><a class="link" href="dataczas.php">Data i Czas</a></li>
                     <li><a class="link" href="biblioteka.php">Biblioteka</a></li>
-                    <li><a class="link" href="formularz.php">Dane</a></li>
+                    <li><a class="link" href="dane.php">Dane</a></li>
                 </ol></b>
             </nav>
         </div>
